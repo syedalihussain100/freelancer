@@ -12,6 +12,8 @@ import { WrittingTranslation } from "./Components/Routes/WrittingTranslation";
 import { DesignCreative } from "./Components/Routes/DesignCreative";
 import { FacebookAds } from "./Components/Routes/FacebookAds";
 import { HowItWorks } from "./Components/Routes/HowItWorks";
+import Browser from "./Components/Routes/Browser";
+
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
         <Route path="/WrittingTranslation" element={<WrittingTranslation />} />
         <Route path="/DesignCreative" element={<DesignCreative />} />
         <Route path="/FacebookAds" element={<FacebookAds />} />
-
+        <Route path="/browserjobs" element={<Browser/>}/>
         {/* <Route path="/About" element={<About />} />
       <Route path="/ContactNow" element={<ContactNow />} />
       <Route path="/Apply" element={<ApplyNow />} />

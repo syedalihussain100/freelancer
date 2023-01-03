@@ -52,7 +52,7 @@ export const Topbar = () => {
                   Something else here
                 </NavDropdown.Item>
               </NavDropdown> */}
-              <Link to="About" className="nav-link">
+              <Link to="/browserjobs" className="nav-link">
                 Browse Jobs
               </Link>
               <Link to="About" className="nav-link">
